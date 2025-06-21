@@ -1,0 +1,10 @@
+[package]
+name = "carcara-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+carcara-core = { version = "0.1.0", path = "../carcara-core" }
+clap = { version = "4.5.40", features = ["derive"] }
